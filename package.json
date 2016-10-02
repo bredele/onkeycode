@@ -1,0 +1,24 @@
+{
+  "name": "onkeycode",
+  "version": "0.1.0",
+  "description": "Execute function on key code",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bredele/onkeycode.git"
+  },
+  "keywords": [
+    "key",
+    "event",
+    "keyboard"
+  ],
+  "author": "Olvier <olivier.wietrich@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bredele/onkeycode/issues"
+  },
+  "homepage": "https://github.com/bredele/onkeycode#readme"
+}
