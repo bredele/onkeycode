@@ -36,6 +36,6 @@ module.exports = function(key, cb) {
     ? map(key)
     : key
   return function(e) {
-    if(e.keyCode == code) cb()
+    if(e.keyCode == code) cb(e)
   }
 }
