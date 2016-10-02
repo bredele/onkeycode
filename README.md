@@ -10,6 +10,35 @@ document.body.addEventListener = onkeycode('esc', function(e) {
 });
 ```
 
+## Keys
+
+The following keys are supported by this module:
+  - tab
+  - enter
+  - backspace
+  - shift
+  - ctrl
+  - alt
+  - break
+  - caps
+  - esc
+  - space
+  - left
+  - up
+  - right
+  - down
+  - delete
+  - command
+
+All other keys can be use with their id:
+
+```js
+document.body.addEventListener = onkeycode(36, function(e) {
+  // do something on home pressed
+});
+```
+
+
 ## License
 
 MIT License
