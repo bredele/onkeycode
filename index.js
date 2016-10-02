@@ -33,7 +33,7 @@ var map = {
 
 module.exports = function(key, cb) {
   var code = typeof key == 'string'
-    ? map(key)
+    ? map[key]
     : key
   return function(e) {
     if(e.keyCode == code) cb(e)
